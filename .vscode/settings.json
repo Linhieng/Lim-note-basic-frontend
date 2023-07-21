@@ -1,0 +1,11 @@
+{
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": "\\.scss$",
+                "cmd": "sass \"${file}\" > \"${fileDirname}\\${fileBasenameNoExt}.css\""
+            }
+        ]
+    },
+    "liveServer.settings.port": 5501
+}
